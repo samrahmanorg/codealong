@@ -1,0 +1,28 @@
+.gallery {
+  width:1050px;
+  display:flex;
+  flex-direction:row;
+  margin-left:auto;
+  margin-right:auto;
+}
+.gallery a{
+  display:block;
+  width:350px;
+  height:350px;
+}
+
+.gallery .didit {
+  background-size:cover;
+  background-image:url("../images/portfolio/didit.png");
+}
+
+.gallery .baseball {
+  background-size:contain;
+  background-image:url("../images/portfolio/baseball.png");
+}
+
+.gallery .scala {
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image:url("../images/portfolio/scala.png");
+}

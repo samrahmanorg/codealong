@@ -1,0 +1,33 @@
+.resume {
+  position:relative;
+  background-color:#333b4f;
+  text-align:center;
+  padding-top:300px;
+  padding-bottom:185px;
+height:50vh;
+}
+
+.resume p {
+  text-align:left;
+  text-transform: uppercase;
+  margin-left:auto;
+  margin-right:auto;
+  width:700px;
+  color:white;
+  margin-bottom:70px;
+}
+
+.resume .logo {
+  position:absolute;
+  top:120px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.resume .download {
+  border:1px solid #30d256;
+  padding:20px;
+  letter-spacing: .2em;
+  color: white;
+  text-decoration:none;
+}
