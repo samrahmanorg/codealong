@@ -1,6 +1,7 @@
 
 @media (max-width: 750px) {
 
+  /*header */
   header .links {
     transform:none;
     background-color:#717a89;
@@ -24,7 +25,7 @@
     height:250px;
   }
 
-  .links:hover {
+  header .links:hover {
     display:block;
     height:250px;
   }
@@ -33,32 +34,26 @@
     display: block;
   }
 
+  /*about me*/
   .aboutme h1, .aboutme p {
     transform:none;
   }
 
+  /*portfolio */
+  .portfolio {
+    height:auto;
+  }
+  .portfolio {
+    padding-top:80px;
+    padding-bottom:80px;
+  }
+  .portfolio h2 {
+    font-size:3em;
+  }
+  .portfolio h3 {
+    font-size:1em;
+  }
 
-    .portfolio {
-      height:auto;
-    }
-    .portfolio {
-      padding-top:80px;
-    }
-    .portfolio h2 {
-      font-size:3em;
-    }
-    .portfolio h3 {
-      font-size:1em;
-    }
-
-    .gallery {
-      width:100%;
-      display:block;
-    }
-
-    .gallery a {
-      width:100%;
-    }
 
 }
 
