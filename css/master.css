@@ -1,4 +1,4 @@
-body, p, h1, h2, section {
+body, p, h1, h2, h3, section {
   font-family: 'Fira Sans', sans-serif;
   padding:0;
   margin:0;
@@ -20,11 +20,22 @@ h1 > b {
 
 h2 {
   color:white;
-  font-size:5em;
+  font-size:4em;
+  text-transform: uppercase;
 }
 
 h2 > b {
   color: #bdc6d4;
+}
+
+h3 {
+  font-size:2em;
+  color:white;
+}
+h3 > a {
+  color: #bec7d4;
+  font-size: .9em;
+  text-decoration:none;
 }
 
 p {
