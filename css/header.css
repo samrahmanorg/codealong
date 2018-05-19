@@ -1,5 +1,5 @@
 header {
-  position:fixed;
+  position:relative;
   height:60px;
   width:100%;
   background-color:#717a8a;
@@ -8,6 +8,10 @@ header {
   text-align:center;
   transform:translateZ(100px);
   z-index:100;
+}
+
+header .menuicon {
+  display:none;
 }
 
 header .logo {

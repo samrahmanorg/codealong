@@ -3,6 +3,34 @@
 
   header .links {
     transform:none;
+    background-color:#717a89;
+    display:none;
+    height:80px;
+    overflow:hidden;
+    transition: all 1s;
+  }
+
+  header .menuicon {
+    position:absolute;
+    right:10px;
+    top:10px;
+    display:block;
+    font-size:30px;
+    color:white;
+  }
+
+  header .menuicon:hover ~ .links {
+    display:block;
+    height:250px;
+  }
+
+  .links:hover {
+    display:block;
+    height:250px;
+  }
+
+  header .links a {
+    display: block;
   }
 
   .aboutme h1, .aboutme p {
@@ -14,7 +42,7 @@
       height:auto;
     }
     .portfolio {
-      padding-top:30px;
+      padding-top:80px;
     }
     .portfolio h2 {
       font-size:3em;
@@ -39,6 +67,7 @@
   header .links {
     transform:none;
   }
+
 
   .aboutme h1 {
     font-size:5em;
